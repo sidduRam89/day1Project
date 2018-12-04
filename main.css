@@ -1,0 +1,206 @@
+header {
+    width: 70%;
+    height:auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: no-wrap;
+    border-bottom: 1px solid silver;
+}
+
+.header-icon {
+    max-width: 50px;
+    max-width: 50px;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 20px;
+}
+
+.header-text {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    align-self: center;
+}
+
+nav ul {
+    width: 80%;
+    list-style: none;
+    height: 70px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.main-img {
+    height: 250px;
+    overflow-y: hidden;
+}
+
+.main-img img {
+    width: 99%;
+}
+
+.main-content {
+    border-bottom: 1px solid silver;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.main-content p {
+    text-align: justify;
+}
+
+.main-content h2 {
+    font-weight: bolder;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+.info span {
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.news ul {
+    list-style: none;
+    border-bottom: 1px solid silver;
+    padding: 0px;
+}
+
+.news ul li {
+    border-bottom: 1px solid silver;
+}
+
+.c-silver {
+    color: silver;
+}
+
+.score-team table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th {
+    padding-left: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+.c-b {
+    color: black;
+    font-weight: bolder;
+}
+
+.weather-location p {
+    position: relative;
+    top: -15px;
+}
+
+.weather-information-main {
+    padding:0px;
+    position: relative;
+    top: -50px;
+    left: -20px;
+}
+
+.weather-information-main img {
+    width: 180px;
+}
+
+.weather-information-main p {
+    display: inline;
+    position: relative;
+    top: -70px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.weather-information-main p span {
+    font-size: 30px;
+    margin-left: -8px;
+}
+
+.weekdays-weather-report {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: -30px;
+}
+
+.weekdays-weather-report figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+.weekdays-weather-report img {
+    width: 130px;
+}
+
+.article-content {
+    margin-top: 30px;
+    text-align: justify
+}
+
+.article-content figure {
+    margin: 0px;
+    display: inline;
+}
+
+.article-content-image img {
+    width: 150px;
+    margin-right: 20px;
+    float: left;
+}
+
+footer {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    /* border-bottom: 1px solid #A9A9A9; */
+    border-top: 1px solid #D3D3D3;
+}
+
+footer ul {
+    list-style: none;
+    padding:0px;
+    height:auto;
+    width:auto;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+footer ul li a {
+    float: left;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin:10px;
+}
